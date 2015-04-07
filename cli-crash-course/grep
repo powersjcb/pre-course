@@ -1,0 +1,156 @@
+FcStrCopyFilename(3)     - create a complete path from a filename
+git-checkout(1)          - Checkout a branch or paths to the working tree
+gitattributes(5)         - defining attributes per path
+CPANPLUS::Internals::Source::Memory(3pm) - In memory implementation n .SS "$cb->_|_memory_retrieve_source(name => $name, [path => $path, uptodate => BOOL, verbose => BOOL])" .SS "$cb->_|_memory_retrieve_source(name => $name, [path => $path, uptodate => BOOL, verbose => BOOL])" Subsection "$cb->__memory_retrieve_source(name => $name, [path => $path, uptodate => BOOL, verbose => BOOL])" This method retrieves a storabled tree identified by $name. It takes the following arguments: name" 4 Item "name" The internal name for the source file to retrieve. uptodate" 4 Item "uptodate" A flag indicating whether the file-cache is up-to-date or not. path" 4 Item "path" The absolute path to the directory holding the source files. verbose" 4 Item "verbose" A boolean flag indicating whether or not to be verbose. Will get information from the config file by default. Returns a tree on success, false on failure. n .SS "$cb->_|_memory_save_source([verbose => BOOL, path => $path])" .SS "$cb->_|_memory_save_source([verbose => BOOL, path => $path])" Subsection "$cb->__memory_save_source([verbose => BOOL, path => $path])" This method saves all the parsed trees in storabled format if Storable is available. It takes the following arguments: path" 4 Item "path" The absolute path to the directory holding the source files. verbose" 4 Item "verbose" A boolean flag indicating whether or not to be verbose. Will get information from the config file by default. Returns true on success, false on failure
+CURLOPT_CAINFO(3)        - path to Certificate Authority (CA) bundle
+CURLOPT_CAPATH(3)        - specify directory holding CA certificates
+CURLOPT_EGDSOCKET(3)     - set EGD socket path
+Cwd(3pm)                 - get pathname of current working directory
+DBI::ProfileSubs(3pm)    - Subroutines for dynamic profile Path
+ExtUtils::InstallPaths(3pm) - Build.PL install path logic made easy
+File::Basename(3pm)      - Parse file paths into directory, filename and suffix
+File::Path(3pm)          - Create or remove directory trees
+Path::Class(3pm)         - Cross-platform path specification manipulation
+Path::Class::Dir(3pm)    - Objects representing directories
+Path::Class::Entity(3pm) - Base class for files and directories
+Path::Class::File(3pm)   - Objects representing files
+Tcl_FSRegister(3tcl), Tcl_FSUnregister(3tcl), Tcl_FSData(3tcl), Tcl_FSMountsChanged(3tcl), Tcl_FSGetFileSystemForPath(3tcl), Tcl_FSGetPathType(3tcl), Tcl_FSCopyFile(3tcl), Tcl_FSCopyDirectory(3tcl), Tcl_FSCreateDirectory(3tcl), Tcl_FSDeleteFile(3tcl), Tcl_FSRemoveDirectory(3tcl), Tcl_FSRenameFile(3tcl), Tcl_FSListVolumes(3tcl), Tcl_FSEvalFile(3tcl), Tcl_FSEvalFileEx(3tcl), Tcl_FSLoadFile(3tcl), Tcl_FSMatchInDirectory(3tcl), Tcl_FSLink(3tcl), Tcl_FSLstat(3tcl), Tcl_FSUtime(3tcl), Tcl_FSFileAttrsGet(3tcl), Tcl_FSFileAttrsSet(3tcl), Tcl_FSFileAttrStrings(3tcl), Tcl_FSStat(3tcl), Tcl_FSAccess(3tcl), Tcl_FSOpenFileChannel(3tcl), Tcl_FSGetCwd(3tcl), Tcl_FSChdir(3tcl), Tcl_FSPathSeparator(3tcl), Tcl_FSJoinPath(3tcl), Tcl_FSSplitPath(3tcl), Tcl_FSEqualPaths(3tcl), Tcl_FSGetNormalizedPath(3tcl), Tcl_FSJoinToPath(3tcl), Tcl_FSConvertToPathType(3tcl), Tcl_FSGetInternalRep(3tcl), Tcl_FSGetTranslatedPath(3tcl), Tcl_FSGetTranslatedStringPath(3tcl), Tcl_FSNewNativePath(3tcl), Tcl_FSGetNativePath(3tcl), Tcl_FSFileSystemInfo(3tcl), Tcl_AllocStatBuf(3tcl) - procedures to interact with any filesystem
+Tcl_GetEncoding(3tcl), Tcl_FreeEncoding(3tcl), Tcl_GetEncodingFromObj(3tcl), Tcl_ExternalToUtfDString(3tcl), Tcl_ExternalToUtf(3tcl), Tcl_UtfToExternalDString(3tcl), Tcl_UtfToExternal(3tcl), Tcl_WinTCharToUtf(3tcl), Tcl_WinUtfToTChar(3tcl), Tcl_GetEncodingName(3tcl), Tcl_SetSystemEncoding(3tcl), Tcl_GetEncodingNameFromEnvironment(3tcl), Tcl_GetEncodingNames(3tcl), Tcl_CreateEncoding(3tcl), Tcl_GetEncodingSearchPath(3tcl), Tcl_SetEncodingSearchPath(3tcl), Tcl_GetDefaultEncodingDir(3tcl), Tcl_SetDefaultEncodingDir(3tcl) - procedures for creating and using encodings
+Tcl_IsSafe(3tcl), Tcl_MakeSafe(3tcl), Tcl_CreateSlave(3tcl), Tcl_GetSlave(3tcl), Tcl_GetMaster(3tcl), Tcl_GetInterpPath(3tcl), Tcl_CreateAlias(3tcl), Tcl_CreateAliasObj(3tcl), Tcl_GetAlias(3tcl), Tcl_GetAliasObj(3tcl), Tcl_ExposeCommand(3tcl), Tcl_HideCommand(3tcl) - manage multiple Tcl interpreters, aliases and hidden commands
+Tcl_SplitPath(3tcl), Tcl_JoinPath(3tcl), Tcl_GetPathType(3tcl) - manipulate platform-dependent file paths
+Tk_CanvasPsY(3tcl), Tk_CanvasPsBitmap(3tcl), Tk_CanvasPsColor(3tcl), Tk_CanvasPsFont(3tcl), Tk_CanvasPsPath(3tcl), Tk_CanvasPsStipple(3tcl) - utility procedures for generating Postscript for canvases
+Tk_CreateWindow(3tcl), Tk_CreateWindowFromPath(3tcl), Tk_DestroyWindow(3tcl), Tk_MakeWindowExist(3tcl) - create or delete window
+Tk_Name(3tcl), Tk_PathName(3tcl), Tk_NameToWindow(3tcl) - convert between names and window tokens
+XML::LibXML::Pattern(3pm) - XML::LibXML::Pattern - interface to libxml2 XPath patterns
+XML::LibXML::XPathContext(3pm) - XPath Evaluation
+XML::LibXML::XPathExpression(3pm) - XML::LibXML::XPathExpression - interface to libxml2 pre-compiled XPath expressions
+XML::XPath(3pm)          - a set of modules for parsing and evaluating XPath statements
+XML::XPath::Boolean(3pm) - Boolean true/false values
+XML::XPath::Builder(3pm) - SAX handler for building an XPath tree
+XML::XPath::Literal(3pm) - Simple string values
+XML::XPath::Node(3pm)    - internal representation of a node
+XML::XPath::Node::Attribute(3pm), Attribute(3pm) - a single attribute
+XML::XPath::Node::Attribute5.16(3pm), Attribute(3pm) - a single attribute
+XML::XPath::Node::Attribute5.18(3pm), Attribute(3pm) - a single attribute
+XML::XPath::Node::Comment(3pm), Comment(3pm) - an XML comment: <!--comment-->
+XML::XPath::Node::Comment5.16(3pm), Comment(3pm) - an XML comment: <!--comment-->
+XML::XPath::Node::Comment5.18(3pm), Comment(3pm) - an XML comment: <!--comment-->
+XML::XPath::Node::Element(3pm), Element(3pm) - an <element>
+XML::XPath::Node::Element5.16(3pm), Element(3pm) - an <element>
+XML::XPath::Node::Element5.18(3pm), Element(3pm) - an <element>
+XML::XPath::Node::Namespace(3pm), Namespace(3pm) - an XML namespace node
+XML::XPath::Node::Namespace5.16(3pm), Namespace(3pm) - an XML namespace node
+XML::XPath::Node::Namespace5.18(3pm), Namespace(3pm) - an XML namespace node
+XML::XPath::Node::PI(3pm), PI(3pm) - an XML processing instruction node
+XML::XPath::Node::PI5.16(3pm), PI(3pm) - an XML processing instruction node
+XML::XPath::Node::PI5.18(3pm), PI(3pm) - an XML processing instruction node
+XML::XPath::Node::Text(3pm), Text(3pm) - an XML text node
+XML::XPath::Node::Text5.16(3pm), Text(3pm) - an XML text node
+XML::XPath::Node::Text5.18(3pm), Text(3pm) - an XML text node
+XML::XPath::NodeSet(3pm) - a list of XML document nodes
+XML::XPath::Number(3pm)  - Simple numeric values
+XML::XPath::PerlSAX(3pm) - A PerlSAX event generator for my wierd node structure
+XML::XPath::XMLParser(3pm) - The default XML parsing class that produces a node tree
+access(2), faccessat(2)  - check access permissions of a file or pathname
+asl(3), asl_add_log_file(3), asl_add_outout_file(3), asl_append(3), asl_close(3), asl_close_auxiliary_file(3), asl_count(3), asl_create_auxiliary_file(3), asl_decode_buffer(3), asl_encode_buffer(3), asl_fetch_key_val_op(3), asl_format(3), asl_free(3), asl_get(3), asl_get_index(3), asl_get_type(3), asl_key(3), asl_log(3), asl_log_auxiliary_location(3), asl_log_descriptor(3), asl_match(3), asl_new(3), asl_next(3), asl_open(3), asl_open_from_file(3), asl_open_path(3), asl_prepend(3), asl_prev(3), asl_release(3), asl_remove_index(3), asl_remove_log_file(3), asl_reset_iteration(3), asl_retain(3), asl_search(3), asl_send(3), asl_set(3), asl_set_filter(3), asl_set_output_file_filter(3), asl_set_query(3), asl_unset(3), asl_vlog(3), aslresponse_free(3), aslresponse_next(3) - system log message sending and searching functions
+au_to_arg32(3), au_to_arg64(3), au_to_arg(3), au_to_attr(3), au_to_attr32(3), au_to_attr64(3), au_to_data(3), au_to_exit(3), au_to_groups(3), au_to_newgroups(3), au_to_in_addr(3), au_to_in_addr_ex(3), au_to_ip(3), au_to_ipc(3), au_to_ipc_perm(3), au_to_iport(3), au_to_opaque(3), au_to_file(3), au_to_text(3), au_to_path(3), au_to_process32(3), au_to_process64(3), au_to_process(3), au_to_process32_ex(3), au_to_process64_ex(3), au_to_process_ex(3), au_to_return32(3), au_to_return64(3), au_to_return(3), au_to_seq(3), au_to_sock_inet32(3), au_to_sock_inet128(3), au_to_sock_inet(3), au_to_socket_ex(3), au_to_subject32(3), au_to_subject64(3), au_to_subject(3), au_to_subject32_ex(3), au_to_subject64_ex(3), au_to_subject_ex(3), au_to_me(3), au_to_exec_args(3), au_to_exec_env(3), au_to_header(3), au_to_header32(3), au_to_header64(3), au_to_header_ex(3), au_to_header32_ex(3), au_to_trailer(3), au_to_zonename(3) - routines for generating BSM audit tokens
+basename(1), dirname(1)  - return filename or directory portion of pathname
+basename(3)              - extract the base portion of a pathname
+ctermid(3), ctermid_r(3) - generate terminal pathname
+dirname(3)               - extract the directory part of a pathname
+dispatch_io_create(3), dispatch_io_create_with_path(3), dispatch_io_close(3), dispatch_io_set_high_water(3), dispatch_io_set_low_water(3), dispatch_io_set_interval(3), dispatch_io_barrier(3) - open, close and configure dispatch I/O channels
+dyld(3), _dyld_image_count(3) - _dyld_get_image_header, _dyld_get_image_vmaddr_slide, _dyld_get_image_name, _dyld_register_func_for_add_image, _dyld_register_func_for_remove_image, NSVersionOfRunTimeLibrary, NSVersionOfLinkTimeLibrary _NSGetExecutablePath
+fnmatch(3)               - test whether a filename or pathname matches a shell-style pattern
+fpathconf(2), pathconf(2) - get configurable pathname variables
+ftok(3)                  - create IPC identifier from path name
+getcwd(3), getwd(3)      - get working directory pathname
+glob(3), glob_b(3), globfree(3) - generate pathnames matching a pattern
+mkpath_np(3)             - Auxiliary routine for efficiently creating paths
+path_helper(8)           - helper for constructing PATH environment variable
+pathchk(1)               - check pathnames
+pathopens.d(1m)          - full pathnames opened ok count. Uses DTrace
+pwd(ntcl)                - Return the absolute path of the current working directory
+realpath(3)              - returns the canonicalized absolute pathname
+sasl_getpath_t(3)        - The SASL callback to indicate location of the mechanism drivers
+wait4path(1)             - wait for given path to show up in the namespace
+which(1)                 - locate a program file in the user's path
+git-checkout(1)          - Checkout a branch or paths to the working tree
+gitattributes(5)         - defining attributes per path
+FcStrCopyFilename(3)     - create a complete path from a filename
+git-checkout(1)          - Checkout a branch or paths to the working tree
+gitattributes(5)         - defining attributes per path
+CPANPLUS::Internals::Source::Memory(3pm) - In memory implementation n .SS "$cb->_|_memory_retrieve_source(name => $name, [path => $path, uptodate => BOOL, verbose => BOOL])" .SS "$cb->_|_memory_retrieve_source(name => $name, [path => $path, uptodate => BOOL, verbose => BOOL])" Subsection "$cb->__memory_retrieve_source(name => $name, [path => $path, uptodate => BOOL, verbose => BOOL])" This method retrieves a storabled tree identified by $name. It takes the following arguments: name" 4 Item "name" The internal name for the source file to retrieve. uptodate" 4 Item "uptodate" A flag indicating whether the file-cache is up-to-date or not. path" 4 Item "path" The absolute path to the directory holding the source files. verbose" 4 Item "verbose" A boolean flag indicating whether or not to be verbose. Will get information from the config file by default. Returns a tree on success, false on failure. n .SS "$cb->_|_memory_save_source([verbose => BOOL, path => $path])" .SS "$cb->_|_memory_save_source([verbose => BOOL, path => $path])" Subsection "$cb->__memory_save_source([verbose => BOOL, path => $path])" This method saves all the parsed trees in storabled format if Storable is available. It takes the following arguments: path" 4 Item "path" The absolute path to the directory holding the source files. verbose" 4 Item "verbose" A boolean flag indicating whether or not to be verbose. Will get information from the config file by default. Returns true on success, false on failure
+CURLOPT_CAINFO(3)        - path to Certificate Authority (CA) bundle
+CURLOPT_CAPATH(3)        - specify directory holding CA certificates
+CURLOPT_EGDSOCKET(3)     - set EGD socket path
+Cwd(3pm)                 - get pathname of current working directory
+DBI::ProfileSubs(3pm)    - Subroutines for dynamic profile Path
+ExtUtils::InstallPaths(3pm) - Build.PL install path logic made easy
+File::Basename(3pm)      - Parse file paths into directory, filename and suffix
+File::Path(3pm)          - Create or remove directory trees
+Path::Class(3pm)         - Cross-platform path specification manipulation
+Path::Class::Dir(3pm)    - Objects representing directories
+Path::Class::Entity(3pm) - Base class for files and directories
+Path::Class::File(3pm)   - Objects representing files
+Tcl_FSRegister(3tcl), Tcl_FSUnregister(3tcl), Tcl_FSData(3tcl), Tcl_FSMountsChanged(3tcl), Tcl_FSGetFileSystemForPath(3tcl), Tcl_FSGetPathType(3tcl), Tcl_FSCopyFile(3tcl), Tcl_FSCopyDirectory(3tcl), Tcl_FSCreateDirectory(3tcl), Tcl_FSDeleteFile(3tcl), Tcl_FSRemoveDirectory(3tcl), Tcl_FSRenameFile(3tcl), Tcl_FSListVolumes(3tcl), Tcl_FSEvalFile(3tcl), Tcl_FSEvalFileEx(3tcl), Tcl_FSLoadFile(3tcl), Tcl_FSMatchInDirectory(3tcl), Tcl_FSLink(3tcl), Tcl_FSLstat(3tcl), Tcl_FSUtime(3tcl), Tcl_FSFileAttrsGet(3tcl), Tcl_FSFileAttrsSet(3tcl), Tcl_FSFileAttrStrings(3tcl), Tcl_FSStat(3tcl), Tcl_FSAccess(3tcl), Tcl_FSOpenFileChannel(3tcl), Tcl_FSGetCwd(3tcl), Tcl_FSChdir(3tcl), Tcl_FSPathSeparator(3tcl), Tcl_FSJoinPath(3tcl), Tcl_FSSplitPath(3tcl), Tcl_FSEqualPaths(3tcl), Tcl_FSGetNormalizedPath(3tcl), Tcl_FSJoinToPath(3tcl), Tcl_FSConvertToPathType(3tcl), Tcl_FSGetInternalRep(3tcl), Tcl_FSGetTranslatedPath(3tcl), Tcl_FSGetTranslatedStringPath(3tcl), Tcl_FSNewNativePath(3tcl), Tcl_FSGetNativePath(3tcl), Tcl_FSFileSystemInfo(3tcl), Tcl_AllocStatBuf(3tcl) - procedures to interact with any filesystem
+Tcl_GetEncoding(3tcl), Tcl_FreeEncoding(3tcl), Tcl_GetEncodingFromObj(3tcl), Tcl_ExternalToUtfDString(3tcl), Tcl_ExternalToUtf(3tcl), Tcl_UtfToExternalDString(3tcl), Tcl_UtfToExternal(3tcl), Tcl_WinTCharToUtf(3tcl), Tcl_WinUtfToTChar(3tcl), Tcl_GetEncodingName(3tcl), Tcl_SetSystemEncoding(3tcl), Tcl_GetEncodingNameFromEnvironment(3tcl), Tcl_GetEncodingNames(3tcl), Tcl_CreateEncoding(3tcl), Tcl_GetEncodingSearchPath(3tcl), Tcl_SetEncodingSearchPath(3tcl), Tcl_GetDefaultEncodingDir(3tcl), Tcl_SetDefaultEncodingDir(3tcl) - procedures for creating and using encodings
+Tcl_IsSafe(3tcl), Tcl_MakeSafe(3tcl), Tcl_CreateSlave(3tcl), Tcl_GetSlave(3tcl), Tcl_GetMaster(3tcl), Tcl_GetInterpPath(3tcl), Tcl_CreateAlias(3tcl), Tcl_CreateAliasObj(3tcl), Tcl_GetAlias(3tcl), Tcl_GetAliasObj(3tcl), Tcl_ExposeCommand(3tcl), Tcl_HideCommand(3tcl) - manage multiple Tcl interpreters, aliases and hidden commands
+Tcl_SplitPath(3tcl), Tcl_JoinPath(3tcl), Tcl_GetPathType(3tcl) - manipulate platform-dependent file paths
+Tk_CanvasPsY(3tcl), Tk_CanvasPsBitmap(3tcl), Tk_CanvasPsColor(3tcl), Tk_CanvasPsFont(3tcl), Tk_CanvasPsPath(3tcl), Tk_CanvasPsStipple(3tcl) - utility procedures for generating Postscript for canvases
+Tk_CreateWindow(3tcl), Tk_CreateWindowFromPath(3tcl), Tk_DestroyWindow(3tcl), Tk_MakeWindowExist(3tcl) - create or delete window
+Tk_Name(3tcl), Tk_PathName(3tcl), Tk_NameToWindow(3tcl) - convert between names and window tokens
+XML::LibXML::Pattern(3pm) - XML::LibXML::Pattern - interface to libxml2 XPath patterns
+XML::LibXML::XPathContext(3pm) - XPath Evaluation
+XML::LibXML::XPathExpression(3pm) - XML::LibXML::XPathExpression - interface to libxml2 pre-compiled XPath expressions
+XML::XPath(3pm)          - a set of modules for parsing and evaluating XPath statements
+XML::XPath::Boolean(3pm) - Boolean true/false values
+XML::XPath::Builder(3pm) - SAX handler for building an XPath tree
+XML::XPath::Literal(3pm) - Simple string values
+XML::XPath::Node(3pm)    - internal representation of a node
+XML::XPath::Node::Attribute(3pm), Attribute(3pm) - a single attribute
+XML::XPath::Node::Attribute5.16(3pm), Attribute(3pm) - a single attribute
+XML::XPath::Node::Attribute5.18(3pm), Attribute(3pm) - a single attribute
+XML::XPath::Node::Comment(3pm), Comment(3pm) - an XML comment: <!--comment-->
+XML::XPath::Node::Comment5.16(3pm), Comment(3pm) - an XML comment: <!--comment-->
+XML::XPath::Node::Comment5.18(3pm), Comment(3pm) - an XML comment: <!--comment-->
+XML::XPath::Node::Element(3pm), Element(3pm) - an <element>
+XML::XPath::Node::Element5.16(3pm), Element(3pm) - an <element>
+XML::XPath::Node::Element5.18(3pm), Element(3pm) - an <element>
+XML::XPath::Node::Namespace(3pm), Namespace(3pm) - an XML namespace node
+XML::XPath::Node::Namespace5.16(3pm), Namespace(3pm) - an XML namespace node
+XML::XPath::Node::Namespace5.18(3pm), Namespace(3pm) - an XML namespace node
+XML::XPath::Node::PI(3pm), PI(3pm) - an XML processing instruction node
+XML::XPath::Node::PI5.16(3pm), PI(3pm) - an XML processing instruction node
+XML::XPath::Node::PI5.18(3pm), PI(3pm) - an XML processing instruction node
+XML::XPath::Node::Text(3pm), Text(3pm) - an XML text node
+XML::XPath::Node::Text5.16(3pm), Text(3pm) - an XML text node
+XML::XPath::Node::Text5.18(3pm), Text(3pm) - an XML text node
+XML::XPath::NodeSet(3pm) - a list of XML document nodes
+XML::XPath::Number(3pm)  - Simple numeric values
+XML::XPath::PerlSAX(3pm) - A PerlSAX event generator for my wierd node structure
+XML::XPath::XMLParser(3pm) - The default XML parsing class that produces a node tree
+access(2), faccessat(2)  - check access permissions of a file or pathname
+asl(3), asl_add_log_file(3), asl_add_outout_file(3), asl_append(3), asl_close(3), asl_close_auxiliary_file(3), asl_count(3), asl_create_auxiliary_file(3), asl_decode_buffer(3), asl_encode_buffer(3), asl_fetch_key_val_op(3), asl_format(3), asl_free(3), asl_get(3), asl_get_index(3), asl_get_type(3), asl_key(3), asl_log(3), asl_log_auxiliary_location(3), asl_log_descriptor(3), asl_match(3), asl_new(3), asl_next(3), asl_open(3), asl_open_from_file(3), asl_open_path(3), asl_prepend(3), asl_prev(3), asl_release(3), asl_remove_index(3), asl_remove_log_file(3), asl_reset_iteration(3), asl_retain(3), asl_search(3), asl_send(3), asl_set(3), asl_set_filter(3), asl_set_output_file_filter(3), asl_set_query(3), asl_unset(3), asl_vlog(3), aslresponse_free(3), aslresponse_next(3) - system log message sending and searching functions
+au_to_arg32(3), au_to_arg64(3), au_to_arg(3), au_to_attr(3), au_to_attr32(3), au_to_attr64(3), au_to_data(3), au_to_exit(3), au_to_groups(3), au_to_newgroups(3), au_to_in_addr(3), au_to_in_addr_ex(3), au_to_ip(3), au_to_ipc(3), au_to_ipc_perm(3), au_to_iport(3), au_to_opaque(3), au_to_file(3), au_to_text(3), au_to_path(3), au_to_process32(3), au_to_process64(3), au_to_process(3), au_to_process32_ex(3), au_to_process64_ex(3), au_to_process_ex(3), au_to_return32(3), au_to_return64(3), au_to_return(3), au_to_seq(3), au_to_sock_inet32(3), au_to_sock_inet128(3), au_to_sock_inet(3), au_to_socket_ex(3), au_to_subject32(3), au_to_subject64(3), au_to_subject(3), au_to_subject32_ex(3), au_to_subject64_ex(3), au_to_subject_ex(3), au_to_me(3), au_to_exec_args(3), au_to_exec_env(3), au_to_header(3), au_to_header32(3), au_to_header64(3), au_to_header_ex(3), au_to_header32_ex(3), au_to_trailer(3), au_to_zonename(3) - routines for generating BSM audit tokens
+basename(1), dirname(1)  - return filename or directory portion of pathname
+basename(3)              - extract the base portion of a pathname
+ctermid(3), ctermid_r(3) - generate terminal pathname
+dirname(3)               - extract the directory part of a pathname
+dispatch_io_create(3), dispatch_io_create_with_path(3), dispatch_io_close(3), dispatch_io_set_high_water(3), dispatch_io_set_low_water(3), dispatch_io_set_interval(3), dispatch_io_barrier(3) - open, close and configure dispatch I/O channels
+dyld(3), _dyld_image_count(3) - _dyld_get_image_header, _dyld_get_image_vmaddr_slide, _dyld_get_image_name, _dyld_register_func_for_add_image, _dyld_register_func_for_remove_image, NSVersionOfRunTimeLibrary, NSVersionOfLinkTimeLibrary _NSGetExecutablePath
+fnmatch(3)               - test whether a filename or pathname matches a shell-style pattern
+fpathconf(2), pathconf(2) - get configurable pathname variables
+ftok(3)                  - create IPC identifier from path name
+getcwd(3), getwd(3)      - get working directory pathname
+glob(3), glob_b(3), globfree(3) - generate pathnames matching a pattern
+mkpath_np(3)             - Auxiliary routine for efficiently creating paths
+path_helper(8)           - helper for constructing PATH environment variable
+pathchk(1)               - check pathnames
+pathopens.d(1m)          - full pathnames opened ok count. Uses DTrace
+pwd(ntcl)                - Return the absolute path of the current working directory
+realpath(3)              - returns the canonicalized absolute pathname
+sasl_getpath_t(3)        - The SASL callback to indicate location of the mechanism drivers
+wait4path(1)             - wait for given path to show up in the namespace
+which(1)                 - locate a program file in the user's path
+git-checkout(1)          - Checkout a branch or paths to the working tree
+gitattributes(5)         - defining attributes per path

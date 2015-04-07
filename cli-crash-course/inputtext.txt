@@ -1,0 +1,3 @@
+this is some input text from the thing 
+this is another line of the text
+you can exit the thing by using ctr+d
